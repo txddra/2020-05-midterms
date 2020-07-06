@@ -18,20 +18,25 @@ const capitalizeSentences = function (sentence) {
 }
 /*--------------*/
 const isValidPassword = function (str) {
-  let password = ""
+  //loop through the given str
   for (let i = 0; i < str.length; i++) {
+    //if the str includes a space return false
     if (str.includes(" ")){
 return false
     }
+    //if the string is less than 12 char. return false
     else if(str.length < 12){
-return falsse
+return false
     }
+    //otherwise return true
     else{
       return true
     }
     }
     
   }
+/*--------------*/
+  
 
 
 
