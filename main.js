@@ -37,8 +37,21 @@ return false
   }
 /*--------------*/
   
+const makeHalfSquares = function(given){
+  //returns a new array
+  let newArr =[]
+//loop through
+for(let i = 0; i < given.length; i++){
+  //pushes to the array 
+  newArr.pop(given * given / 2)
+}
+return newArr
+}
+//doesn't work and idk why 
 
+const countAs = function(num){
 
+}
 
 // const hyphenateName = function (name){
 //   let hyphenated = "";
