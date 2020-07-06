@@ -66,10 +66,10 @@ for(let i = 0; i <num.length;i++){
 const deleteMiddleLetters= function(str){
   //new str
   let result = '';
-  //loop through
+  //loop through the entire string
   for(let i=0; i < str.length; i++){
-    let mid =str[]
-//find the middle str
+    
+// I need to find the middle two characters of the string, but can't hardcode it, how..?
 result += str[i]
   }
 
