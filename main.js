@@ -70,9 +70,13 @@ const deleteMiddleLetters= function(str){
   for(let i=0; i < str.length; i++){
     
 // I need to find the middle two characters of the string, but can't hardcode it, how..?
+
+//if the string is even find the middle two
+if(str[i] % 2 ====0){
 result += str[i]
   }
-
+//return str 
+}return result
 }
 // const hyphenateName = function (name){
 //   let hyphenated = "";
