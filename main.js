@@ -24,9 +24,13 @@ const isValidPassword = function (str) {
 return false
     }
     else if(str.length < 12){
-return false
+return falsse
+    }
+    else{
+      return true
     }
     }
+    
   }
 
 
