@@ -6,7 +6,7 @@ const capitalizeSentences = function (sentence) {
     //if there are periods in the string, uppercase the first letter of the sentence... problem is, i have no idea how to do that...
 
     //this doesn't work and i have no idea why.
-    if (capSent[i] === '. ') {
+    if (i === '. ') {
       capSent += sentence[0].toUpperCase()
 
 
@@ -50,9 +50,30 @@ return newArr
 //doesn't work and idk why 
 
 const countAs = function(num){
+for(let i = 0; i <num.length;i++){
+  let result = []
+  //returns the numbers if at least 90?
+  if(num => 90){
 
+    //should push it into the array
+    return result.push(num)
+
+  }
+}
 }
 
+
+const deleteMiddleLetters= function(str){
+  //new str
+  let result = '';
+  //loop through
+  for(let i=0; i < str.length; i++){
+    let mid =str[]
+//find the middle str
+result += str[i]
+  }
+
+}
 // const hyphenateName = function (name){
 //   let hyphenated = "";
 //   for(let i = 0; i < name.length; i++){
