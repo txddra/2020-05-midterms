@@ -26,10 +26,13 @@
 4. Return the new **array**
 
 
+### countAs
+
+1. The output will be a **number**.
+2. We want to go through each number in the given **array**.
+3. If the number at the given index is greater than or equal to 90.
+4. Add the count to the **array**.
+5. Return the **number**
 
 
-
-
-
-
-5. if the number at the given index is less than 90
+###

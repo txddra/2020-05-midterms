@@ -1,21 +1,26 @@
 const capitalizeSentences = function (sentence) {
-  //the output of our function, a new str
+  //the output of our function, a new string,
   let capSent = "";
   //we want to go through the sentences to see where each period is so that we can capitalize the following character
   for (let i = 0; i < sentence.length; i++) {
     //if there are periods in the string, uppercase the first letter of the sentence... problem is, i have no idea how to do that...
 
     //this doesn't work and i have no idea why.
-    if (i === '. ') {
+    if (i === 0 || sentence[i-2]=== '. ' ) {
       capSent += sentence[0].toUpperCase()
 
 
     }
-    //return our new str
+    else{
+capSent += sentence[i].toLowerCase()
+    }
+
+    }
+    //return our new string
     return capSent
   }
 
-}
+
 /*--------------*/
 const isValidPassword = function (str) {
   //loop through the given str
@@ -43,7 +48,7 @@ const makeHalfSquares = function(given){
 //loop through
 for(let i = 0; i < given.length; i++){
   //pushes to the array 
-  newArr.pop(given * given / 2)
+  newArr.push(given ** given / 2)
 }
 return newArr
 }
@@ -53,12 +58,13 @@ const countAs = function(num){
 for(let i = 0; i <num.length;i++){
   let result = []
   //returns the numbers if at least 90?
-  if(num => 90){
+  if(num[i] >= 90){
 
-    //should push it into the array
-    return result.push(num)
+  // up the count if the number is greater than or equal to 90
+    count = count + 1;
 
   }
+  return count
 }
 }
 
@@ -72,9 +78,9 @@ const deleteMiddleLetters= function(str){
 // I need to find the middle two characters of the string, but can't hardcode it, how..?
 
 //if the string is even find the middle two
-if(str[i] % 2 ====0){
-result += str[i]
-  }
+// if(str[i] % 2 ====0){
+// result += str[i]
+//   }
 //return str 
 }return result
 }
