@@ -35,4 +35,8 @@
 5. Return the **number**
 
 
-###
+### deleteMiddleLetters
+
+1. The output will be a new **string**.
+2. We want to go though each index of the given string
+3. ..this is where i got stuck
